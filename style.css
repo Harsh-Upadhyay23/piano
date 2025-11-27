@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    
+}
+body{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-image: url(Neon_Heartbeat_Animation_Generation.mp4);
+}
+
+main{
+    position: relative;
+   
+
+}
+main .keys{
+    display: flex;
+    gap:2px;
+    position: absolute;
+    top: 45%;
+    left:16%;
+    align-items: flex-end;
+    perspective: 10000px;
+    /* transition: all 0.25s cubic-bezier(0.25, 0.46, 0.45, 1); */
+
+
+
+}
+main .white, .black{
+    height:150px;
+    width: 40px;
+    color: rgb(13, 13, 13);
+    border-radius: 20px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-weight: 1000;
+    padding: 5px;
+    transform-origin: top;
+    
+}
+main .black{
+    height: 120px;
+    width: 30px;
+    background-color: black;
+      border-radius: 20px;
+}
+
+main .white:hover{
+    
+    transform:rotateX(-15deg)
+}
+
+main .black:hover{
+    
+    transform:rotateX(-15deg)
+}
+/* video{
+    position:absolute;
+   
+} */
