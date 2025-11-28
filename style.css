@@ -20,11 +20,14 @@ body{
 main{
     position: relative;
 }
+main .home{
+   margin-top: 25px;
+}
 main .keys{
     display: flex;
     gap:2px;
     position: absolute;
-    top: 45%;
+    top: 46.2%;
     left:16%;
     align-items: flex-end;
     perspective: 10000px;
