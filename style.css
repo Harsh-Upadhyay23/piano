@@ -14,14 +14,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-     background-image: url(Neon_Heartbeat_Animation_Generation.mp4);
+   
 }
 
 main{
     position: relative;
-   
-   
-
 }
 main .keys{
     display: flex;
